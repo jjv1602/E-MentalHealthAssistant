@@ -235,3 +235,17 @@ a {
 .first_block,.third_block{
   margin-bottom: 50px;
 }
+
+/* Footer */
+#footer{
+  text-align: center;
+  background-color: rgb(160, 196, 190);
+  padding-top: 5%;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-image-des{
+  margin: 20px 10px;
+
+}
