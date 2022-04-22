@@ -249,3 +249,33 @@ a {
   margin: 20px 10px;
 
 }
+
+.fmenh{
+  
+  height: 400px;
+  width: 600px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0, 0.4);
+  margin:auto;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+#fmenh_txt{
+  position: relative;
+  margin-top: 60px;
+  color: white;
+  font-size: 45px;
+  font-family: 'Acme', sans-serif;
+
+}
+
+#fmenh_btn{
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  
+  border-radius: 20px;
+}

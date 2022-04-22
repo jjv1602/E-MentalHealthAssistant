@@ -21,6 +21,7 @@ let icon = document.querySelector(".nav");
 // For FIRST box i.e BOOST YOUR CONFIDENCE
 function tre_thir_box() {
   document.getElementsByClassName("Wlcmpg")[0].style.visibility="visible";
+  document.getElementsByClassName("fmenh")[0].style.visibility="hidden";  
   
   document.getElementById("a").style.backgroundColor = "rgb(160, 196, 190)";
   document.getElementById("b").style.backgroundColor = "rgb(160, 196, 190)";
@@ -60,7 +61,8 @@ function tre_sec_box() {
   document.getElementById("c").style.backgroundColor = "rgb(160, 196, 190)";
   document.getElementById("b").style.backgroundColor = "white";
   
-  document.getElementsByClassName("Wlcmpg")[0].style.visibility="hidden";  
+  document.getElementsByClassName("Wlcmpg")[0].style.visibility="hidden";
+  document.getElementsByClassName("fmenh")[0].style.visibility="hidden";  
   document.getElementsByClassName("bgimg")[0].style.height = "48rem";
   document.getElementsByClassName("bgimg")[0].style. marginTop = "0px";
   document.getElementsByClassName("bgimg")[0].style.backgroundImage = "url('images/AI CHATBOT IMAGE.jpg')";
@@ -89,7 +91,10 @@ function tre_fir_box() {
   document.getElementById("b").style.backgroundColor = "rgb(160, 196, 190)";
   document.getElementById("c").style.backgroundColor = "rgb(160, 196, 190)";
   document.getElementById("a").style.backgroundColor = "white";
+
   document.getElementsByClassName("Wlcmpg")[0].style.visibility="hidden";  
+  document.getElementsByClassName("fmenh")[0].style.visibility="visible";  
+  
   document.getElementsByClassName("bgimg")[0].style.height = "43rem";
   icon.style.backgroundColor = "rgba(201,213,233,255)";
   document.getElementsByClassName("bgimg")[0].style.backgroundImage = "url('images/Mental_health_sessions_img.png')";
