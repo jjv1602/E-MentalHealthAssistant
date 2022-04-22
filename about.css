@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+}
+.wrapper-h1{
+    background-color: rgb(160, 196, 190);
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
 .testimonial{
     width: 100vw;
     height: auto;
@@ -54,6 +64,7 @@
 
 .testimonial .item .img img{
     width: 100px;
+    height: 100px;
     display: block;
     margin: 0 auto;
 }
@@ -78,7 +89,9 @@
     border-bottom-right-radius: 25px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    height: 100%;
+    /* border-bottom: 1px solid #00393e; */
 }
 
 
