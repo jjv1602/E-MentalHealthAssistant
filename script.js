@@ -20,6 +20,7 @@ let icon = document.querySelector(".nav");
 
 // For FIRST box i.e BOOST YOUR CONFIDENCE
 function tre_thir_box() {
+  document.getElementsByClassName("Wlcmpg")[0].style.visibility="visible";
   
   document.getElementById("a").style.backgroundColor = "rgb(160, 196, 190)";
   document.getElementById("b").style.backgroundColor = "rgb(160, 196, 190)";
