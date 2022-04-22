@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* important to remove horizontol scroll */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  position: fixed;
+}
+.nav-bar-content {
+  padding-left: 40px;
+  text-decoration: none;
+}
+.logo {
+  font-family: "Fredoka", sans-serif;
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+}
+.logo img {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
+.logo h1 {
+  display: flex;
+  color: black;
+}
+ul {
+  display: flex;
+}
+ul li {
+  font-family: "Fredoka", sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 5px 25px 5px 25px;
+  border-right: 0.5px solid black;
+}
+
+/* Removing right border of Contact US */
+.nav-bar-content ul li:nth-of-type(6) {
+  border-right: 0px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+.nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav ul li:hover::after {
+  width: 100%;
+}
+
+/* background image */
+.bgimg {
+  height: 43rem;
+  /* height: 48rem; - For AI chatbot image height*/
+  width: 100%;
+
+  /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pic1.jpg); */
+  background-image: url(images/pic1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 110px;
+ 
+}
+
+/* Professional Psychology Therapy Box */
+.Wlcmpg {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 40%;
+  height: 50%;
+  background-color: rgb(236, 241, 247);
+  border-right: 20px groove rgb(160, 196, 190);
+  border-top: 30px groove rgb(160, 196, 190);
+  padding: 10px 10px;
+  visibility: visible;
+}
+#wlchead {
+  font-size: 40px;
+  font-family: "Fredoka", sans-serif;
+  color: #313131;
+}
+#wlcbdy {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.threebox {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  cursor: pointer;
+}
+#a,
+#b,
+#c {
+  background-color: rgb(160, 196, 190);
+  width: 25%;
+  height: 140px;
+  bottom: 0;
+  padding: 15px 15px 10px 30px;
+  font-family: "osavenir", "Open Sans", sans-serif;
+  flex-grow: 1;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0.1px solid rgb(75, 102, 86) ;
+
+}
+
+/* #c:hover,
+#a:hover,
+#b:hover {
+  background-color: white;
+  
+} */
+
+#a_img {
+  float: left;
+  max-width: 30%;
+  max-height: 30%;
+  padding-right: 15px;
+}
+#b_img,
+#c_img {
+  float: left;
+  max-width: 30%;
+  max-height: 30%;
+  padding-right: 20px;
+}
+
+
+/* Service Portion */
+
+#services_bg{
+  width: 100%;
+  height: 70rem;
+  margin: 20px;
+  margin-bottom: 0;
+  /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pic1.jpg); */
+  background-image: url(http://zelus.pinsupreme.com/wp-content/uploads/2018/04/pic21.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;    
+  border-radius: 10px;
+  box-shadow: #313131;
+  justify-content: space-around;
+}
+
+.right_part{
+  display: flex;
+}
+
+.left_part{
+  margin: 50px;
+  box-sizing: border-box;
+  padding: 100px;
+}
+.left_part_h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.left_part_span{
+  font-size: 1.5rem;
+}
+.left_part_p{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.428571429;
+  color: #313131;
+  letter-spacing: 0.3px;
+  margin-top: 30px;
+}
+.right_part_img{
+  height: 60px;
+  width: 60px;
+  margin-bottom: 35px;
+}
+.right_part_p{
+  font-weight: 400;
+  line-height: 1.428571429;
+  color: #313131;
+  letter-spacing: 0.3px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.first_block,.second_block,.third_block,.fourth_block{
+  border: 2px solid white;
+  outline: none;
+  margin: 15px;
+  /* padding: 10px; */
+  width: 300px;
+  height: 350px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.first_block,.third_block{
+  margin-bottom: 50px;
+}
